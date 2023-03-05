@@ -1,0 +1,94 @@
+.burgerAnimation1 {
+	animation: burgerAnimation1 1s forwards;
+}
+
+.burgerAnimation2 {
+	animation: burgerAnimation2 1s forwards;
+}
+
+.burgerAnimation3 {
+	animation: burgerAnimation3 1s forwards;
+}
+
+.burgerAnimation1Reverse {
+	animation: burgerAnimation1Reverse 1s forwards;
+}
+
+.burgerAnimation2Reverse {
+	animation: burgerAnimation2Reverse 1s forwards;
+}
+
+.burgerAnimation3Reverse {
+	animation: burgerAnimation3Reverse 1s forwards;
+}
+
+@keyframes burgerAnimation1 {
+	0% {
+		transform: rotate(0deg) translateX(0);
+		transform-origin: 0 0;
+	}
+
+	100% {
+		transform: rotate(45deg) translate(0px, 0px);
+		transform-origin: 0 0;
+	}
+}
+
+@keyframes burgerAnimation2 {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateX(50px);
+		opacity: 0;
+	}
+}
+
+@keyframes burgerAnimation3 {
+	0% {
+		transform: rotate(0deg) translateX(0);
+		transform-origin: 0 0;
+	}
+
+	100% {
+		transform: rotate(-45deg) translate(-4px, 1px);
+		transform-origin: 0 0;
+	}
+}
+
+@keyframes burgerAnimation1Reverse {
+	0% {
+		transform: rotate(45deg) translate(0px, 0px);
+		transform-origin: 0 0;
+	}
+
+	100% {
+		transform: rotate(0deg) translateX(0);
+		transform-origin: 0 0;
+	}
+}
+
+@keyframes burgerAnimation2Reverse {
+	0% {
+		transform: translateX(50px);
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes burgerAnimation3Reverse {
+	0% {
+		transform: rotate(-45deg) translate(-4px, 1px);
+		transform-origin: 0 0;
+	}
+
+	100% {
+		transform: rotate(0deg) translateX(0);
+		transform-origin: 0 0;
+	}
+}

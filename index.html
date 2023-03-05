@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Konrad Nizinski">
+    <meta name="keywords" content="forest, park, natura, lasy">
+    <meta name="description"
+        content="Chcesz przeżyć przygodę życia? Odwiedź najpiękniejszy park w Twojej okolicy - Forest! Dołącz do grona setek tysięcy zadowolonych klientów już dziś!">
+    <title>Forest - Najpiękniejszy park w Twojej okolicy!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="./src/img/icons/favicon.ico" />
+<link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body>
+    <nav>
+    <div class="navWrapper">
+        <a href="/forest-website/index.html" class="logo"><img src="./src/img/icons/logo.svg" alt="Christmas Tree Logo" class="logo__img"><span
+                class="logo__text">Forest</span></a>
+
+        <ul class="menuContainer">
+            <li class="menu menuElement1"><a href="#home">Home</a></li>
+            <li class="menu menuElement2"><a href="#o-nas">O nas</a></li>
+            <li class="menu menuElement3"><a href="#oferta">Oferta</a></li>
+            <li class="menu menuElement4"><a href="./kontakt.html">Kontakt</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="burger__line line1"></div>
+            <div class="burger__line line2"></div>
+            <div class="burger__line line3"></div>
+        </div>
+
+        <div class="hiddenMenu">
+            <ul>
+                <li class="hiddenMenu__section"><a href="#home" class="hiddenMenuElement1">Home</a></li>
+                <li class="hiddenMenu__section"><a href="#o-nas" class="hiddenMenuElement2">O nas</a></li>
+                <li class="hiddenMenu__section"><a href="#oferta" class="hiddenMenuElement3">Oferta</a></li>
+                <li class="hiddenMenu__section"><a href="./kontakt.html" class="hiddenMenuElement4">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <header id="home" class="header">
+        <div class="header__hero">
+            <div class="header__text">
+                <p>Forest Group</p>
+                <h1>Najpiękniejszy park w Twojej okolicy!</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <section id="o-nas" class="flexCenter aboutus">
+                <p class="centralText">o nas</p>
+                <div class="aboutus__container">
+                    <div class="aboutus__textContainer">
+                        <h2>Niezapomniane przygody</h2>
+                        <p class="aboutus__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum. www.MMCSchool.pl</p>
+                    </div>
+                    <picture>
+                        <source class="aboutus__img" media="(min-width: 992px)" srcset="./dist/img/waters-normal.jpg"
+                            alt="Skała z rośliną na środku jeziora">
+                        <img class="aboutus__img" src="./dist/img/waters-mini.jpg"
+                            alt="Skała z rośliną na środku jeziora">
+                    </picture>
+                </div>
+            </section>
+        </div>
+        <section id="przygoda" class="adventure">
+            <div class="adventure__hero">
+                <p class="adventure__text">Przygoda dla całej rodziny</p>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <section id="oferta" class="offer">
+                <p class="centralText">oferta</p>
+                <p class="choose">Wybierz jedną z naszych wspaniałych ofert!</p>
+                <div class="offer__cardContainer">
+                    <div class="offer__card">
+                        <p class="offer__type">Demo</p>
+                        <p class="offer__price">$0</p>
+                        <div class="offer__container">
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/minus.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja poza pakietem</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/minus.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja poza pakietem</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/minus.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja poza pakietem</p>
+                            </span>
+                        </div>
+                        <a href="#" class="btn">Wybierz</a>
+                    </div>
+                    <div class="offer__card">
+                        <p class="offer__type">Standard</p>
+                        <p class="offer__price">$99</p>
+                        <div class="offer__container">
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/minus.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja poza pakietem</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/minus.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja poza pakietem</p>
+                            </span>
+                        </div>
+                        <a href="#" class="btn ctaBtn">Wybierz</a>
+                    </div>
+                    <div class="offer__card">
+                        <p class="offer__type">Premium</p>
+                        <p class="offer__price">$299</p>
+                        <div class="offer__container">
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                            <span class="offer__textContainer"><img src="./dist/img/icons/check.svg"
+                                    alt="Ikonka haczyka">
+                                <p class="offer__included">opcja w pakiecie</p>
+                            </span>
+                        </div>
+                        <a href="#" class="btn">Wybierz</a>
+                    </div>
+                </div>
+
+
+                <div class="offer__other">
+                    <p class="choose">Sprawdź także nasze pozostałe oferty!</p>
+                    <a href="./oferta.html" target="_blank" rel="noopener" class="btn">Sprawdź</a>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+    <footer class="footer">
+    <div class="wrapper">
+        <span class="logo"><img src="./src/img/icons/logo.svg" alt="Christmas Tree Logo" class="logo__img"><span
+                class="logo__text">Forest</span></span>
+
+        <div class="footer__container">
+            <section class="footer__box">
+                <h3>O nas</h3>
+                <a href="#">Praca</a>
+                <a href="#">Kadry</a>
+                <a href="#">Zarząd</a>
+            </section>
+
+            <section class="footer__box">
+                <h3>Nasza firma</h3>
+                <a href="#">Historia</a>
+                <a href="#">Parki</a>
+                <a href="#">Opinie</a>
+            </section>
+
+            <section class="footer__box">
+                <h3>Dokumenty</h3>
+                <a href="#">Wnioski</a>
+                <a href="#">Rezerwacje</a>
+            </section>
+        </div>
+
+    </div>
+
+    <div class="footer__info">
+        <p>&copy;<span id="currentYear"></span> Forest Group Company Ltd.</pcl>
+    </div>
+</footer>
+    <script src="./dist/js/script.min.js"></script>
+
+</body>
+
+</html>

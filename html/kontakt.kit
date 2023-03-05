@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Konrad Nizinski">
+    <meta name="keywords" content="forest, park, natura, lasy">
+    <meta name="description"
+        content="Chcesz przeżyć przygodę życia? Odwiedź najpiękniejszy park w Twojej okolicy - Forest! Dołącz do grona setek tysięcy zadowolonych klientów już dziś!">
+    <title>Forest Website - Formularz kontaktowy</title>
+    <!-- @include 'styles.kit' -->
+</head>
+
+<body>
+    <!-- @include 'nav.kit' -->
+    <main>
+        <section class="formContainer">
+            <div class="wrapper flexCenter">
+                <p class="centralText">kontakt</p>
+                <p>Wypełnij poniższy formularz kontaktowy, jeśli potrzebujesz uzyskać informacje związane z naszymi
+                    usługami</p>
+                <form action="" class="form flexCenter">
+                    <label for="firstName">Podaj imię: </label>
+                    <input type="text" name="firstName" placeholder="Imię">
+                    <label for="secondName">Podaj nazwisko: </label>
+                    <input type="text" name="firstName" placeholder="Nazwisko">
+                    <label for="firstName">Podaj numer telefonu:</label>
+                    <input type="number" name="firstName" placeholder="Numer telefonu">
+                    <label for="message">Wpisz treść swojej wiadomości: </label>
+                    <textarea name="message" id="" cols="20" rows="10"></textarea>
+                    <div class="dataAgreement">
+                        <input type="checkbox" class="dataAgreement__checkbox" id="dataAgreement">
+                        <label for="dataAgreement">Wyrażam zgodę na przetwarzanie moich danych osobowych</label>
+                    </div>
+                    <input type="submit" value="Wyślij formularz" class="submit btn">
+                </form>
+                <p class="centralText">zobacz nas na mapie!</p>
+                <p>Poniżej znajduje się interaktywna mapa Google, która ułatwi Ci znalezienie restauracji McDonalds.</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81916.75044476394!2d19.833954329900898!3d50.0881881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1677935892236!5m2!1spl!2spl "
+                    max-width="600" height="450" style="border:0;margin: 2em;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+        </section>
+    </main>
+    <!-- @include 'footer.kit' -->
+    <script src="./dist/js/script.min.js"></script>
+
+</body>
+
+</html>
